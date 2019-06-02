@@ -1,0 +1,26 @@
+{
+  "name": "test-react-inside",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest-dom": "^3.4.0",
+    "parcel-bundler": "^1.12.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^8.0.1",
+    "jest": "^24.8.0"
+  },
+  "jest": {
+    "verbose": true,
+    "testMatch": ["**/*.js"]
+  }
+}
